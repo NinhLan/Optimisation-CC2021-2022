@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>763</width>
+    <height>786</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>100</y>
+      <width>661</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;A partir du sujet on a donc la résolution suivent &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;On a&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:11pt;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:11pt; vertical-align:sub;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:11pt;&quot;&gt; est le nombre de voiture que l'usine1 envoir à client1&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:11pt;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:11pt; vertical-align:sub;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:11pt;&quot;&gt; est le nombre de voiture que l'usine1 envoir à client2&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:11pt;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:11pt; vertical-align:sub;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:11pt;&quot;&gt; est le nombre de voiture que l'usine2 envoir à client1&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:11pt;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:11pt; vertical-align:sub;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:11pt;&quot;&gt; est le nombre de voiture que l'usine2 envoir à client2&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;On a un problème minimisation à la forme : &lt;/span&gt;&lt;/p&gt;&lt;p&gt;Z = 30x&lt;span style=&quot; vertical-align:sub;&quot;&gt;1 &lt;/span&gt;+ 25x&lt;span style=&quot; vertical-align:sub;&quot;&gt;2&lt;/span&gt; + 36x&lt;span style=&quot; vertical-align:sub;&quot;&gt;3&lt;/span&gt; +30x&lt;span style=&quot; vertical-align:sub;&quot;&gt;4&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Avec les sous contraintes : &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;file:///C:/Users/ninht/AppData/Local/Temp/msohtmlclip1/01/clip_image012.png&quot; width=&quot;189&quot; height=&quot;70&quot;/&gt;&lt;/p&gt;&lt;p/&gt;&lt;p&gt;Grâce au programme BigM on peut trouver la solution souvent : A partir du sujet on a donc la résolution suivent &lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>8514oem</family>
+      <weight>50</weight>
+      <bold>false</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Question 3&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>490</y>
+      <width>651</width>
+      <height>181</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>763</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

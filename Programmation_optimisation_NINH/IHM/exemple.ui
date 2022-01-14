@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1227</width>
+    <height>699</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>40</y>
+      <width>341</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MV Boli</family>
+      <pointsize>40</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Bienvenue!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>451</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Veuillez voir les sujets ci-dessous et choisissez un exemple que vous voulez</string>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>180</y>
+      <width>1161</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Question1</string>
+     </attribute>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>40</y>
+        <width>911</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Question 1 :
+Un fabricant produit trois types d'accessoires en plastique. Le temps nécessaire au moulage, à la découpe et à l'emballage est indiqué dans le Tableau 1. 
+(Les temps sont indiqués en heures par douzaine d'accessoires).
+
+Tableau 1: Coûts et profits associés à la production de produits en plastique.
+
+Procédure / Produit	Type A	Type B	Type C	Temps total disponible
+Moulage	1	2	3/2	12.000,00
+Découpage	2/3	2/3	1	4.600,00
+Emballage	1/2	1/3	1/2	2.400,00
+Profit	11 €	16 €	15 €	
+
+Combien de douzaines de chaque type d'accessoire doivent être produites pour obtenir un profit maximal ?
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Question2</string>
+     </attribute>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>40</y>
+        <width>591</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Une petite compagnie pétrolière possède deux raffineries. La raffinerie 1 coûte 20 000 dollars par jour &lt;/p&gt;&lt;p&gt;et peut produire chaque jour 400 barils de pétrole de qualité supérieure, 300 barils de pétrole de&lt;/p&gt;&lt;p&gt;qualité moyenne et 200 barils de pétrole de qualité inférieure. La raffinerie 2 est plus récente et &lt;/p&gt;&lt;p&gt;plus moderne. Son coût d'exploitation est de 25 000 dollars par jour et elle peut produire chaque&lt;/p&gt;&lt;p&gt;jour 300 barils de pétrole de qualité supérieure, 400 barils de pétrole de qualité moyenne et 500&lt;/p&gt;&lt;p&gt;barils de pétrole de qualité inférieure.&lt;/p&gt;&lt;p/&gt;&lt;p&gt;L'entreprise a des commandes totalisant 25000 barils de pétrole de qualité supérieure, 27000 barils&lt;/p&gt;&lt;p&gt;de pétrole de qualité moyenne et 30000 barils de pétrole de qualité inférieure. Combien de jours&lt;/p&gt;&lt;p&gt;doit-elle faire fonctionner chaque raffinerie pour minimiser ses coûts tout en raffinant suffisamment&lt;/p&gt;&lt;p&gt;de pétrole pour honorer ses commandes ? &lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Question3</string>
+     </attribute>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>30</y>
+        <width>971</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Une entreprise automobile possède deux usines. Une usine a 400 voitures (d'un certain modèle) en stock et l'autre usine a 300 voitures (du même modèle) en stock.&lt;/p&gt;&lt;p&gt; Deux clients commandent ce modèle de voiture. Le premier client a besoin de 200 voitures, et le second de 300 voitures. Le coût de l'expédition des voitures&lt;/p&gt;&lt;p&gt;des deux usines aux clients est indiqué dans le Tableau 2. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11.5pt;&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt; font-style:italic; color:#44546a;&quot;&gt;Tableau 2 : Coûts d'expédition de véhicules.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;/&gt;&lt;/p&gt;&lt;table border=&quot;1&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tr&gt;&lt;td width=&quot;121&quot; rowspan=&quot;2&quot; style=&quot; vertical-align:top; padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-style:italic;&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Usine 1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Usine 2&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;134&quot; style=&quot; vertical-align:top; padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Client 1     Client 2&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot; vertical-align:top; padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;30 €          25 €&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;36 €          30 €&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Comment l'entreprise doit-elle expédier les voitures afin de minimiser les frais d'expédition ? &lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>550</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Question1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>550</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Question2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>550</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Question3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Retourner</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1227</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
